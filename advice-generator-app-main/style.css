@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow:0 2px 8px 5px hsl(150, 100%, 66%);
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+}
+
+.advice-text {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.diceBnt {
+    position: relative;
+    background-color: hsl(150, 100%, 66%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    top: 44px;
+    cursor: pointer;
+}
+
+.diceBnt:hover {
+    box-shadow: 0 0 20px 0px hsl(150, 100%, 66%);
+
+}
+
+.dice {
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    right: 30%;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+.attribution {
+    padding-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    ;
+}
+
+.attribution a {
+    color: hsl(150, 100%, 66%);
+    text-decoration: none !important;
+}
+
+.contact-links {
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.contact-links a {
+    margin: 5px;
+    color: hsl(150, 100%, 66%);
+}
+
+.contact-details {
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(4px);
+}

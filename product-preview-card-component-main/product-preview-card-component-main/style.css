@@ -1,0 +1,123 @@
+body {
+    font-family: 'Fraunces', serif, 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+/*MAIN*/
+.container-fluid,
+.card {
+    max-width: 375px;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: none;
+}
+
+.card {
+    background-color: white;
+}
+
+.col img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.info {
+    max-width: 187.5px;
+}
+
+/*TEXT*/
+h1,
+.price {
+    font-size: 19px;
+    padding: 0 47px 5px 0;
+    line-height: 1.3rem;
+}
+
+h2,
+.title,
+s {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    font-size: 8px;
+    padding-right: 23px;
+    line-height: 0.9rem;
+}
+
+.title {
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: 9px;
+    margin: 9px 0 13px 0;
+}
+
+.price {
+    margin-top: 15px;
+    color: hsl(158, 36%, 37%);
+}
+
+span {
+    font-size: 8px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+button {
+    position: relative;
+    bottom: 12px;
+    right: 21px;
+    width: 9rem;
+    height: 1.8rem;
+    margin: 0 20px 0 20px;
+    background-color: #184131;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 8px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+
+/*FOOTER*/
+.attribution {
+
+    padding-top: 50px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(158, 36%, 37%);
+    text-decoration: none !important;
+}
+
+.contact-links {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.contact-links a {
+    font-size: 11px;
+    margin: 2px;
+}
+
+.contact-details {
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(4px);
+}

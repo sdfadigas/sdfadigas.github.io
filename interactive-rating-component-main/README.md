@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [(https://github.com/sdfadigas/sdfadigas.github.io/tree/main/interactive-rating-component-main)]
-- Live Site URL:[(https://sdfadigas.github.io/interactive-rating-component-main/)]
+- Solution URL: [Solution] (https://github.com/sdfadigas/sdfadigas.github.io/tree/main/interactive-rating-component-main)
+- Live Site URL: [Live Site] (https://sdfadigas.github.io/interactive-rating-component-main/)
 
 ## My process
 

@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div class="container">
+    <div class="card">
+      <div id="front">
+        <div class="circle-star" id="star">
+          <img src="images/icon-star.svg">
+        </div>
+        <h1>How did we do?</h1>
 
-  <!-- Rating state start -->
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+        <div id="rating">
+          <label for="rate1" class="circle-star">1</label>
+          <input type="radio" name="rate" id="rate1" value="1" />
+          <label for="rate2" class="circle-star">2</label>
+          <input type="radio" name="rate" id="rate2" value="2" />
+          <label for="rate3" class="circle-star">3</label>
+          <input type="radio" name="rate" id="rate3" value="3" />
+          <label for="rate4" class="circle-star">4</label>
+          <input type="radio" name="rate" id="rate4" value="4" />
+          <label for="rate5" class="circle-star">5</label>
+          <input type="radio" name="rate" id="rate5" value="5" />
+        </div>
 
-  How did we do?
+        <input type="submit" class="mainBtn" value="Submit" id="mainBtn">
+      </div>
+      <!-- Rating state end -->
+      <div id="after-click">
+        <div><img src="images/illustration-thank-you.svg" class="mobile" alt="mobile"></div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+        <p class="rate">You selected <span class="value">0</span>out of 5</p>
+        <h2>Thank you!</h2>
 
-  1 2 3 4 5
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
 
-  Submit
+        <!-- Thank you state end -->
 
-  <!-- Rating state end -->
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="samara.dev.br">Samara Dumont Fadigas</a>.
 
-  <!-- Thank you state start -->
+      <div class="contact-links">
+        <a href="https://codepen.io/sdfadigas" target="_blank" class="btn contact-details">
+          <i class="fa-brands fa-codepen"></i> Codepen</a>
+        <a id="profile-link" href="https://github.com/sdfadigas" target="_blank" class="btn contact-details"><i
+            class="fab fa-github"></i> GitHub</a>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <a href="mailto:sdfadigas@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Email</a>
+        <a href="https://wa.me/5548991077107" class="btn contact-details"><i class="fa-brands fa-whatsapp"></i> Write
+          me</a>
+      </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>

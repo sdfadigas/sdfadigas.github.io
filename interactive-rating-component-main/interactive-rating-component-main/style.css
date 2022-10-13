@@ -1,0 +1,141 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+h1,
+h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 240px;
+    background: linear-gradient(180deg, rgba(64, 78, 95, 0.4) 0%, hsl(210, 17%, 9%));
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+#rating {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 12px 0;
+}
+
+.circle-star {
+    display: block;
+    position: relative;
+    width: 35px;
+    height: 0;
+    padding-bottom: 35px;
+    background-color: hsl(217, 11%, 43%, 0.2);
+    line-height: 2.5;
+    color: var(--white);
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+
+.circle-star:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+input[type=radio] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.mainBtn {
+    width: 240px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    margin: 12px 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.mainBtn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+#after-click {
+    display: none;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile {
+    height: 13vh;
+}
+
+.rate {
+    background-color: hsl(216, 12%, 54%, 0.3);
+    border-radius: 20px;
+    margin: 20px 48px;
+    padding: 7px;
+    color: hsl(25, 97%, 53%);
+}
+
+/*FOOTER*/
+.attribution {
+    padding-top: 50px;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%);
+    text-decoration: none !important;
+}
+
+.contact-links {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-links a {
+    font-size: 11px;
+    margin: 2px;
+}
+
+.contact-details {
+    transition: all 0.5s ease-out;
+    ;
+}
+
+.contact-details:hover {
+    transform: translateY(4px);
+}

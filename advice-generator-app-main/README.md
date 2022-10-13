@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://user-images.githubusercontent.com/99447521/195697139-3f948420-75ec-4c46-96ba-0910254e55c7.png)]
+![](https://user-images.githubusercontent.com/99447521/195697139-3f948420-75ec-4c46-96ba-0910254e55c7.png)
 
 ### Links
 

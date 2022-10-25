@@ -122,7 +122,7 @@ h2 {
 /*FOOTER*/
 .attribution {
     padding-top: 50px;
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     color: hsl(193, 38%, 86%);
     
@@ -142,7 +142,8 @@ h2 {
 
 .contact-links a {
     margin: 5px;
-    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    color: hsl(228, 45%, 44%);
 }
 
 .contact-details {

@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution 
+# Donana Landing Page
 
 ## Table of contents
 

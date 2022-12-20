@@ -1,76 +1,54 @@
-# app-bolao---backup0812
-{
-   "jogos":[
-      {
-         "id":1,
-         "Local do jogo":"Domingo, 20/11 - 13h - Nome do Estádio: Al Bayt",
-         "time1":"Catar",
-         "time2":"Equador",
-         "placar1":3,
-         "placar2":1
-      },
-      {
-         "id":2,
-         "Local do jogo":"Segunda, 21/11 - 10h -Nome do Estádio: Khalifa Internacional",
-         "time1":"INGLATERRA",
-         "time2":"IRÃ",
-         "placar1":3,
-         "placar2":0
-      }
-   ]
-}
+
+# Bolão do Pombo 
+## Índice
+
+- [Visão geral](#visao-geral)
+  - [Funcionamento](#funcionamento)
+  - [Screenshot](#screenshot)
+  - [Desenolvido com](#desenvolvido-com)
+- [Autores](#Autores)
 
 
-<?php include "config.php"; ?>
-<!doctype html>
-<html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+## Visão geral
+Desenvolvimento de um aplicativo web de bolão de copa em um layout minimamente viável;
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+### Funcionamento
 
-    <title>Hello, world!</title>
-</head>
+- Estrutura mínima de páginas (você pode fazer mais págiunas caso queira):
+   - Tela de Login;
+   - Tela Inicial, constando suas apostas realizas e sua quantidade de acertos;
+   - Tela para cadastro das Apostas;
+   - Tela para Acompanhar as apostas;
+   - O sistema deve as apostas realizas em uma banco de dados;
+   - Cada jogador, só pode jogar em cada jogo somente uma vez;
+   - O sistema deve exibir todos os jogos cadastrados no banco de dados;
+  
+### Screenshot
 
-<body>
-    <div class="container">
-        <?php
-            $sql = "SELECT * FROM dados_jogos";
-            $query = $mysqli->query($sql);
-            $i = 1;
-            $j = 2;
-            while ($dados = $query->fetch_array()){
-        ?>
-        <div class="row">
-            <div class="col-12">
-            Data do Jogo: <?php echo $dados['data']; ?> - 
-            Hora do Jogo: <?php echo $dados['horario']; ?> - 
-            Estadio: <?php echo $dados['local']; ?> - <br> 
-            <img src="_images/<?php echo $dados['timea']; ?>.png">
-            <?php echo $dados['timea']; ?>
-            <input type="text" class="form-control" width="20px" name="cp<?php echo $i; ?>"> x 
-            <input type="text" name="cp<?php echo $j; ?>" class="form-control" width="20px">
-            <img src="_images/<?php echo $dados['timeb']; ?>.png"><br>
-            </div>
-            
-        </div>
-        <?php $i++;$j++;} ?>
-    </div>
+![Tela de palpites]!(https://user-images.githubusercontent.com/99447521/208729830-bbcf63c1-c227-42ee-b76a-f5da83ee913b.png)
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+### Desenvolvido com
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-</body>
+- [Firebase](https://core.telegram.org/bots/api](https://firebase.google.com/?hl=pt)
+- Node.js
+- Javascript
+- HTML5
+- CSS3
 
-</html>
+
+## Autores
+
+- [Samara Dumont Fadigas](https://samara.dev.br)
+- [Igor Pereira](https://github.com/Igorpereirag)
+- [Vitor Tanan]()
+
+
+
+
+
+
+
+
+

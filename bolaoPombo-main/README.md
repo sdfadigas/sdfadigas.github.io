@@ -26,12 +26,12 @@ Desenvolvimento de um aplicativo web de bolão de copa em um layout minimamente 
   
 ### Screenshot
 
-![Tela de palpites]!(https://user-images.githubusercontent.com/99447521/208729830-bbcf63c1-c227-42ee-b76a-f5da83ee913b.png)
+![Tela de palpites](https://user-images.githubusercontent.com/99447521/208729830-bbcf63c1-c227-42ee-b76a-f5da83ee913b.png)
 
 
 ### Desenvolvido com
 
-- [Firebase](https://core.telegram.org/bots/api](https://firebase.google.com/?hl=pt)
+- [Firebase](https://firebase.google.com/?hl=pt)
 - Node.js
 - Javascript
 - HTML5

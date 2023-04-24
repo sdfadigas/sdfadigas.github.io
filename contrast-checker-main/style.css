@@ -1,100 +1,96 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upload label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.upload input[type="file"] {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 20px;
+}
+
+.result {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.learn-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.learn-more a {
+  font-size: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .upload {
+    flex-direction: row;
+    margin-bottom: 40px;
   }
-  
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  .upload label {
+    margin-right: 20px;
+  }
+
+  .image-container {
+    flex-direction: row;
     justify-content: center;
-    height: 100vh;
   }
-  
-  h1 {
-    font-size: 3em;
-    margin-top: 20px;
+
+  .image {
+    margin-right: 40px;
   }
-  
-  label {
-    font-size: 18px;
-    margin-top: 20px;
+
+  .result {
+    text-align: left;
   }
-  
-  #fileInput {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  
-  #image {
-    max-width: 100%;
-    margin: 20px 0;
-  }
-  
-  #result {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  #resultContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  p {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-  
-  a {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-   
-  @media only screen and (min-width: 768px) {
-    /* Styles for screens larger than 768px */
-    
-    h1 {
-      font-size: 48px;
-      margin-top: 40px;
-    }
-  
-    label {
-      font-size: 24px;
-      margin-top: 40px;
-    }
-  
-    #fileInput {
-      font-size: 20px;
-      margin-top: 20px;
-    }
-  
-    #image {
-      max-width: 500px;
-      margin: 40px 0;
-    }
-  
-    #result {
-      font-size: 36px;
-      margin-top: 40px;
-    }
-  
-    #resultContainer {
-      margin-top: 40px;
-    }
-  
-    p {
-      font-size: 24px;
-      margin-top: 40px;
-    }
-  
-    a {
-      font-size: 24px;
-      margin-top: 20px;
-    }
-  }
-  
+}

@@ -19,24 +19,17 @@ Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
 ### Screenshot
 
-<<<<<<< HEAD
-![image]
+![image](https://user-images.githubusercontent.com/99447521/195695112-d754b20c-565d-4e9a-893a-c4cc5f1ff003.png)
 
 ### Links
 
-- Solution URL: [Solution] (https://github.com/sdfadigas/sdfadigas.github.io/tree/main/advice-generator-app-main)
-=======
-![](https://user-images.githubusercontent.com/99447521/195697139-3f948420-75ec-4c46-96ba-0910254e55c7.png)
-
-### Links
-
-- Solution URL: [Solution](https://github.com/sdfadigas/sdfadigas.github.io/tree/main/advice-generator-app-main)
->>>>>>> 1eee2626bb84b9c6379e941c86b97d766cbb11fb
-- Live Site URL: [Live Site](https://sdfadigas.github.io/advice-generator-app-main/)
+- Solution URL: [Solution](https://github.com/sdfadigas/sdfadigas.github.io/tree/main/interactive-rating-component-main)
+- Live Site URL: [Live Site](https://sdfadigas.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -45,10 +38,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-<<<<<<< HEAD
-=======
-- API
->>>>>>> 1eee2626bb84b9c6379e941c86b97d766cbb11fb
 - Vanilla JS
 
 ## Author
@@ -56,10 +45,5 @@ Users should be able to:
 - Website - [Samara Dumont Fadigas](https://samara.dev.br)
 - Frontend Mentor - [@sdfadigas](https://www.frontendmentor.io/profile/sdfadigas)
 - Twitter - [@oxesasa](https://www.twitter.com/oxesasa)
-
-
-
-
-
 
 

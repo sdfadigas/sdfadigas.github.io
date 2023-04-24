@@ -21,7 +21,12 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![]
+=======
+![](https://user-images.githubusercontent.com/99447521/195703270-65c5ca79-fa79-492d-836a-13cdb5869995.png)
+
+>>>>>>> 1eee2626bb84b9c6379e941c86b97d766cbb11fb
 
 ### Links
 
@@ -35,7 +40,10 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+<<<<<<< HEAD
 - Vanilla JS
+=======
+>>>>>>> 1eee2626bb84b9c6379e941c86b97d766cbb11fb
 
 ## Author
 

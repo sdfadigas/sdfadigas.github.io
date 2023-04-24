@@ -23,7 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![]
+=======
+![](https://user-images.githubusercontent.com/99447521/195704865-6232dc1d-3c04-48ab-b5d3-65a4e301f3d2.png)
+
+>>>>>>> 1eee2626bb84b9c6379e941c86b97d766cbb11fb
 
 ### Links
 

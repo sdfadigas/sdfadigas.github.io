@@ -31,5 +31,6 @@
 - JavaScript
 
 ## Author
-[Portfolio](https://samara.dev.br)
+[Portfolio](https://samara.dev.br)   
+
 [Linkedin](https://www.linkedin.com/in/samara-dumont-fadigas/)

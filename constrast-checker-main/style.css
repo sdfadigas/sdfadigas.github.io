@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  #fileInput {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  #image {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  a {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+   
+  @media only screen and (min-width: 768px) {
+    /* Styles for screens larger than 768px */
+    
+    h1 {
+      font-size: 48px;
+      margin-top: 40px;
+    }
+  
+    label {
+      font-size: 24px;
+      margin-top: 40px;
+    }
+  
+    #fileInput {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  
+    #image {
+      max-width: 500px;
+      margin: 40px 0;
+    }
+  
+    #result {
+      font-size: 36px;
+      margin-top: 40px;
+    }
+  
+    #resultContainer {
+      margin-top: 40px;
+    }
+  
+    p {
+      font-size: 24px;
+      margin-top: 40px;
+    }
+  
+    a {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  }
+  

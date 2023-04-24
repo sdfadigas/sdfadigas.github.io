@@ -15,7 +15,7 @@ body {
 #image {
   max-width: 50%;
   max-height: 200px;
-  margin-bottom: 20px;
+  margin: 20px 20px 0 0;
 }
 
 #result {

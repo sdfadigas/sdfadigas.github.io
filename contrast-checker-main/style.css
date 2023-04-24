@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
+#container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,85 +12,25 @@ body {
   height: 100vh;
 }
 
-.upload {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#image {
+  max-width: 100%;
+  max-height: 400px;
   margin-bottom: 20px;
 }
 
-.upload label {
+#result {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.upload input[type="file"] {
-  font-size: 20px;
-  padding: 10px;
-  border: none;
-  background-color: #f0f0f0;
-  cursor: pointer;
-}
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.image {
-  max-width: 30%;
-  max-height: 100px;
   margin-top: 20px;
 }
 
-.result {
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 20px;
-  text-align: center;
+#backButtonContainer {
+  display: none;
 }
 
-.result-container {
+#resultContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-}
-
-.learn-more {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.learn-more a {
-  font-size: 20px;
-  color: #007bff;
-  text-decoration: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .upload {
-    flex-direction: row;
-    margin-bottom: 40px;
-  }
-
-  .upload label {
-    margin-right: 20px;
-  }
-
-  .image-container {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .image {
-    margin-right: 40px;
-  }
-
-  .result {
-    text-align: left;
-  }
 }
